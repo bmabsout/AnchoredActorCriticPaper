@@ -1,0 +1,62 @@
+# LaTeX .gitignore
+
+# Core LaTeX/pdflatex auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Generated PDF files
+*.pdf
+
+# Bibliography auxiliary files (bibtex/biblatex/biber)
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# Changes in the text editor
+*.bak
+*.sav
+
+# Uncomment the next line if you use pdfcomment
+#*.upa
+
+# Editors
+.vscode/
+*.swp
+*~
+
+# Nix-specific
+result
+result-*
+
+# macOS-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
