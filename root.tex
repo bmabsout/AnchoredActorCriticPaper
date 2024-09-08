@@ -121,15 +121,9 @@ Anchored Learning for On-the-Fly Adaptation
 
 
 \begin{abstract}
-% We into anchor critics
-% sim to real is annoying
-% real world data can fine tune but stuff can be forgotten
-% the note about tails
-% what are anchors and why do they help in keeping things sane?
-% emperical data
 
 This study presents ``anchor critics", a novel strategy developed to enhance the robustness of reinforcement learning (RL) agents in crossing the sim-to-real gap.
-Even RL agents successfully trained in simulation encounter difficulties such as unpredictability, inefficient power consumption, and operational failures when deployed in the real world.
+RL agents successfully trained in simulation often encounter difficulties such as unpredictability, inefficient power consumption, and operational failures when deployed in the real world.
 % Say something about how fine-tuning with real data can help but can also lead to catastrophic forgetting of lower-probability states
 % Incorporating real-world data into the training pipeline can bridge the sim-to-real gap, but the distribution of real-world observations can be impossible to control.
 Our findings indicate that the distributional shift of data from simulation and reality exacerbates catastrophic forgetting, causing well-behaved policies to rapidly lose control of the physical system on real-world low-probability states.

@@ -30,8 +30,6 @@
           ];
         };
 
-        packages = {
-          root = mkPdf { name = "root"; };
-        };
+        packages.default = mkPdf { name = "root"; };
       });
 }
